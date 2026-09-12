@@ -28,6 +28,33 @@ const departamentos = [
   "Ucayali",
 ];
 
+const stickers = [
+  "amazonas",
+  "ancash",
+  "apurimac",
+  "arequipa",
+  "ayacucho",
+  "cajamarca",
+  "cusco",
+  "huancavelica",
+  "huanuco",
+  "ica",
+  "junin",
+  "la-libertad",
+  "lambayeque",
+  "lima",
+  "loreto",
+  "madre-de-dios",
+  "moquegua",
+  "pasco",
+  "piura",
+  "puno",
+  "san-martin",
+  "tacna",
+  "tumbes",
+  "ucayali",
+];
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#EDE7E0] text-[#0C1C29]">
@@ -36,10 +63,11 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
           <Link href="/" className="relative block h-20 w-56 sm:h-22 sm:w-60 lg:h-24 lg:w-64 focus:outline-none">
             <Image
-              src="/images/logo-azul.png"
+              src="/images/logo-azul-header.png"
               alt="OLIVICE - Siempre contigo"
               fill
               priority
+              sizes="(min-width: 1024px) 256px, (min-width: 640px) 240px, 224px"
               className="object-contain object-left"
             />
           </Link>
@@ -228,6 +256,16 @@ export default function Home() {
                   <span className="text-[10px] tracking-widest text-[#725842]">
                     {String(index + 1).padStart(2, "0")}
                   </span>
+                  <div className="flex min-h-0 flex-1 items-center justify-center py-2">
+                    <Image
+                      src={`/images/stickers/${stickers[index]}.png`}
+                      alt={`Sticker de ${departamento}`}
+                      width={512}
+                      height={653}
+                      sizes="(min-width: 1024px) 12vw, (min-width: 768px) 20vw, 40vw"
+                      className="h-auto w-[62%] max-h-full object-contain"
+                    />
+                  </div>
                   <div>
                     <div className="mb-3 h-px w-8 bg-[#725842]/40 transition-all group-hover:w-14" />
                     <h3 className="text-sm font-medium">{departamento}</h3>
