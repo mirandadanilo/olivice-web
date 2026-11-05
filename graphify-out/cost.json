@@ -1,0 +1,13 @@
+{
+  "runs": [
+    {
+      "date": "2026-11-05T03:51:32.066762+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 50,
+      "note": "structural-only; semantic extraction skipped because extraction-spec.md is absent"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0
+}

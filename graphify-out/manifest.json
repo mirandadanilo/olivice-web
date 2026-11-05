@@ -1,0 +1,314 @@
+{
+  ".codex/hooks.json": {
+    "mtime": 1793848929.2687826,
+    "seen": 1793850692.0526288,
+    "ast_hash": "5ebef3dd159986e465ab65e4014107ec",
+    "semantic_hash": "5ebef3dd159986e465ab65e4014107ec"
+  },
+  "eslint.config.mjs": {
+    "mtime": 1788922391.9516284,
+    "seen": 1793850692.0526288,
+    "ast_hash": "dfa1f5f6a7037bf39dc510f30b180002",
+    "semantic_hash": "dfa1f5f6a7037bf39dc510f30b180002"
+  },
+  "next-env.d.ts": {
+    "mtime": 1793852301.6419735,
+    "seen": 1793853422.1789975,
+    "ast_hash": "aa94238a90e7d04b7a47ecc3145ba6a0",
+    "semantic_hash": "aa94238a90e7d04b7a47ecc3145ba6a0"
+  },
+  "next.config.ts": {
+    "mtime": 1788922392.284506,
+    "seen": 1793850692.0526288,
+    "ast_hash": "9b77af189a21a7a64e4bd7a426f64176",
+    "semantic_hash": "9b77af189a21a7a64e4bd7a426f64176"
+  },
+  "package.json": {
+    "mtime": 1788922628.0600889,
+    "seen": 1793850692.0526288,
+    "ast_hash": "86fc38f46a3de709a5f04fb5b1d0e48f",
+    "semantic_hash": "86fc38f46a3de709a5f04fb5b1d0e48f"
+  },
+  "postcss.config.mjs": {
+    "mtime": 1788922392.0290115,
+    "seen": 1793850692.0526288,
+    "ast_hash": "239f3ebf717465dc636818a1a619398d",
+    "semantic_hash": "239f3ebf717465dc636818a1a619398d"
+  },
+  "src/app/layout.tsx": {
+    "mtime": 1788922392.3647797,
+    "seen": 1793850692.0526288,
+    "ast_hash": "70f839ece80281c576701dc08f055685",
+    "semantic_hash": "70f839ece80281c576701dc08f055685"
+  },
+  "src/app/page.tsx": {
+    "mtime": 1793854700.459592,
+    "seen": 1793854730.4258063,
+    "ast_hash": "a347724c3af91257d546169a60074dce",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1788922628.0523624,
+    "seen": 1793850692.0526288,
+    "ast_hash": "ee17fd1c97c735e9f3564e3f5251f125",
+    "semantic_hash": "ee17fd1c97c735e9f3564e3f5251f125"
+  },
+  "AGENTS.md": {
+    "mtime": 1793848929.2687826,
+    "seen": 1793853422.1789975,
+    "ast_hash": "3e3a7451927a64b9becdc7551baa1817",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1788922773.1651454,
+    "seen": 1793853422.1789975,
+    "ast_hash": "5c27369b226fcf2be8a6cfe52224e767",
+    "semantic_hash": ""
+  },
+  "README-PROYECTO.md": {
+    "mtime": 1788921759.5385802,
+    "seen": 1793853422.1789975,
+    "ast_hash": "aafd6f46d93592c07a16c792a18fb236",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1788921759.5399523,
+    "seen": 1793853422.1789975,
+    "ast_hash": "b1c0d72391dd12e0419bd1448fce3182",
+    "semantic_hash": ""
+  },
+  "coleccion-peru.md": {
+    "mtime": 1788921759.5409524,
+    "seen": 1793853422.1789975,
+    "ast_hash": "8314513ac348ccdbaad888cfe8fe58b9",
+    "semantic_hash": ""
+  },
+  "plan-web-olivice.md": {
+    "mtime": 1788921759.541958,
+    "seen": 1793853422.1789975,
+    "ast_hash": "4e3f9e40aa90ff4370471356ad22c3aa",
+    "semantic_hash": ""
+  },
+  "public/images/Stickers.pdf": {
+    "mtime": 1789186258.045795,
+    "seen": 1793853422.1789975,
+    "ast_hash": "3925e8592274e4123c8c92b99e7a1540",
+    "semantic_hash": ""
+  },
+  "public/file.svg": {
+    "mtime": 1788922392.0484257,
+    "seen": 1793853422.1789975,
+    "ast_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71",
+    "semantic_hash": ""
+  },
+  "public/globe.svg": {
+    "mtime": 1788922392.0777802,
+    "seen": 1793853422.1789975,
+    "ast_hash": "2aaafa6a49b6563925fe440891e32717",
+    "semantic_hash": ""
+  },
+  "public/images/cartilla-sticker.png": {
+    "mtime": 1789116810.0,
+    "seen": 1793853422.1789975,
+    "ast_hash": "5c04a7d150ba0a0c3f2afe8b2835c615",
+    "semantic_hash": ""
+  },
+  "public/images/logo-azul-header.png": {
+    "mtime": 1789187865.1866477,
+    "seen": 1793853422.1789975,
+    "ast_hash": "ccb5b9d10c3c542677821889ddbd385b",
+    "semantic_hash": ""
+  },
+  "public/images/logo-azul-old.png": {
+    "mtime": 1789116844.0,
+    "seen": 1793853422.1789975,
+    "ast_hash": "135aa22affd6b53019b6a82e131a3047",
+    "semantic_hash": ""
+  },
+  "public/images/logo-azul.png": {
+    "mtime": 1789095733.5842087,
+    "seen": 1793853422.1789975,
+    "ast_hash": "53154dfc7f9056baeab8e63c410429b2",
+    "semantic_hash": ""
+  },
+  "public/images/logo-beige.png": {
+    "mtime": 1789116844.0,
+    "seen": 1793853422.1789975,
+    "ast_hash": "616b066a428bd2a28380e32833937fef",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/amazonas.png": {
+    "mtime": 1793854117.758,
+    "seen": 1793854299.4569027,
+    "ast_hash": "1864444744027d4c5d659b914d1b463a",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/ancash.png": {
+    "mtime": 1793854117.867,
+    "seen": 1793854299.4569027,
+    "ast_hash": "0003b061a99a509aaa03048f10ba687d",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/apurimac.png": {
+    "mtime": 1793854117.943,
+    "seen": 1793854299.4569027,
+    "ast_hash": "4dd2ecc0d4c1f828f15f10ae961667d2",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/arequipa.png": {
+    "mtime": 1793854118.042,
+    "seen": 1793854299.4569027,
+    "ast_hash": "7b527384c1bcc02746fe7161886007da",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/ayacucho.png": {
+    "mtime": 1793854118.137,
+    "seen": 1793854299.4569027,
+    "ast_hash": "09f0db100cff4bbc91e9e87cfaf8fc54",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/cajamarca.png": {
+    "mtime": 1793854118.226,
+    "seen": 1793854299.4569027,
+    "ast_hash": "366ccb3597a982164f44e9671090a9e1",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/cusco.png": {
+    "mtime": 1793854118.302,
+    "seen": 1793854299.4569027,
+    "ast_hash": "ce81ae552bd0a6210c51f40fd8f074b8",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/huancavelica.png": {
+    "mtime": 1793854118.429,
+    "seen": 1793854299.4569027,
+    "ast_hash": "f68322736a8f28166589285b2797abaa",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/huanuco.png": {
+    "mtime": 1793854118.573,
+    "seen": 1793854299.4569027,
+    "ast_hash": "dd844cb7c59751edc245077e8ff337f1",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/ica.png": {
+    "mtime": 1793854118.683,
+    "seen": 1793854299.4569027,
+    "ast_hash": "09c9c486f349777904f1205b30b84d17",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/junin.png": {
+    "mtime": 1793854118.764,
+    "seen": 1793854299.4569027,
+    "ast_hash": "f9edfe52388228f102efc8cf79e6618d",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/la-libertad.png": {
+    "mtime": 1793854118.854,
+    "seen": 1793854299.4569027,
+    "ast_hash": "080c8956e03009dd9cfd591cd3880ffa",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/lambayeque.png": {
+    "mtime": 1793854118.956,
+    "seen": 1793854299.4569027,
+    "ast_hash": "41ca20ca043c1f871f1d876ca1022a10",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/lima.png": {
+    "mtime": 1793854119.056,
+    "seen": 1793854299.4569027,
+    "ast_hash": "6209bd64aaa4ee4191509e90fbd7ca6b",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/loreto.png": {
+    "mtime": 1793854119.157,
+    "seen": 1793854299.4569027,
+    "ast_hash": "ffe82e148ab23599d59b229c741efba0",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/madre-de-dios.png": {
+    "mtime": 1793854119.409,
+    "seen": 1793854299.4569027,
+    "ast_hash": "f79a87f46accbe06d14a02162cad7881",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/moquegua.png": {
+    "mtime": 1793854119.595,
+    "seen": 1793854299.4569027,
+    "ast_hash": "e59064c529b27358de8408039fac39fa",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/pasco.png": {
+    "mtime": 1793854119.707,
+    "seen": 1793854299.4569027,
+    "ast_hash": "dba093ffcdad7a1b824742af00881973",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/piura.png": {
+    "mtime": 1793854119.838,
+    "seen": 1793854299.4569027,
+    "ast_hash": "66539cb9a624a1834a295c9fd0e9397f",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/puno.png": {
+    "mtime": 1793854119.984,
+    "seen": 1793854299.4569027,
+    "ast_hash": "b7cc2f681c08e14d4694f23684173033",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/san-martin.png": {
+    "mtime": 1793854120.121,
+    "seen": 1793854299.4569027,
+    "ast_hash": "71adb39926a004d44c0aa72cf2004260",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/tacna.png": {
+    "mtime": 1793854120.244,
+    "seen": 1793854299.4569027,
+    "ast_hash": "6fff14c42493422aa3b5ecaeb34cc894",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/tumbes.png": {
+    "mtime": 1793854120.376,
+    "seen": 1793854299.4569027,
+    "ast_hash": "dbc07608f172e5569dfb7c2eee2f4c87",
+    "semantic_hash": ""
+  },
+  "public/images/stickers/ucayali.png": {
+    "mtime": 1793854120.521,
+    "seen": 1793854299.4569027,
+    "ast_hash": "6f0904d0ec9b6da2c82fa4c240ccdc06",
+    "semantic_hash": ""
+  },
+  "public/next.svg": {
+    "mtime": 1788922392.1068184,
+    "seen": 1793853422.1789975,
+    "ast_hash": "8e061864f388b47f33a1c3780831193e",
+    "semantic_hash": ""
+  },
+  "public/vercel.svg": {
+    "mtime": 1788922392.1420505,
+    "seen": 1793853422.1789975,
+    "ast_hash": "c0af2f507b369b085b35ef4bbe3bcf1e",
+    "semantic_hash": ""
+  },
+  "public/window.svg": {
+    "mtime": 1788922392.1793797,
+    "seen": 1793853422.1789975,
+    "ast_hash": "a2760511c65806022ad20adf74370ff3",
+    "semantic_hash": ""
+  },
+  "src/app/components/CartillaViewer.tsx": {
+    "mtime": 1793855030.5756361,
+    "seen": 1793855046.9978812,
+    "ast_hash": "904b14f9d0799ed72df0ebf5e88be577",
+    "semantic_hash": ""
+  },
+  "package-lock.json": {
+    "mtime": 1788923302.5984032,
+    "seen": 1793853422.1789975,
+    "ast_hash": "dc8e0d87648f7bed85c200d9faabdd7d",
+    "semantic_hash": ""
+  }
+}

@@ -1,6 +1,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import CartillaViewer from "./components/CartillaViewer";
 
 const departamentos = [
   "Amazonas",
@@ -383,13 +384,7 @@ export default function Home() {
               </div>
 
               <div className="relative mx-6 mb-6 mt-5 flex items-start justify-center overflow-visible rounded-[1.5rem] bg-[#EDE7E0] px-4 pb-8 pt-5">
-                <Image
-                  src="/images/cartilla-sticker.png"
-                  alt="Vista de la cartilla de stickers OLIVICE"
-                  width={1133}
-                  height={1587}
-                  className="block h-auto w-[245px] max-w-full object-contain object-center"
-                />
+                <CartillaViewer />
               </div>
             </article>
 
@@ -454,27 +449,27 @@ export default function Home() {
               <Link
                 key={departamento}
                 href={`/peru/${stickers[index]}`}
-                className="group aspect-square overflow-hidden rounded-2xl bg-[#EDE7E0] p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+                className="group aspect-square overflow-hidden rounded-2xl bg-[#EDE7E0] p-2 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
               >
                 <div className="flex h-full flex-col justify-between">
-                  <span className="text-[10px] tracking-widest text-[#725842]">
+                  <span className="text-[10px] leading-none tracking-widest text-[#725842]">
                     {String(index + 1).padStart(2, "0")}
                   </span>
 
-                  <div className="flex min-h-0 flex-1 items-center justify-center py-2">
+                  <div className="flex min-h-0 flex-1 items-center justify-center py-0">
                     <Image
                       src={`/images/stickers/${stickers[index]}.png`}
                       alt={`Sticker de ${departamento}`}
-                      width={512}
-                      height={653}
+                      width={stickers[index] === "amazonas" ? 510 : 512}
+                      height={stickers[index] === "amazonas" ? 652 : 653}
                       sizes="(min-width: 1024px) 12vw, (min-width: 768px) 20vw, 40vw"
-                      className="h-auto w-[62%] max-h-full object-contain"
+                      className="h-auto w-[92%] max-h-full scale-[1.03] object-contain"
                     />
                   </div>
 
                   <div>
-                    <div className="mb-3 h-px w-8 bg-[#725842]/40 transition-all group-hover:w-14" />
-                    <h3 className="text-sm font-medium">{departamento}</h3>
+                    <div className="mb-1 h-px w-8 bg-[#725842]/40 transition-all group-hover:w-14" />
+                    <h3 className="text-sm font-bold">{departamento}</h3>
                   </div>
                 </div>
               </Link>
