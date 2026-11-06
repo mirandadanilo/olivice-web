@@ -33,14 +33,14 @@ export default function CartillaViewer() {
         type="button"
         onClick={() => setIsOpen(true)}
         aria-label="Ampliar cartilla de stickers"
-        className="group block cursor-zoom-in rounded-xl focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
+        className="group block w-full cursor-zoom-in rounded-xl focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
       >
         <Image
           src="/images/cartilla-sticker.png"
           alt="Cartilla de stickers OLIVICE con los 24 departamentos del Perú"
           width={1133}
           height={1587}
-          className="block h-auto w-[245px] max-w-full object-contain object-center transition-transform duration-200 group-hover:scale-[1.02]"
+          className="block h-auto w-full max-w-full object-contain object-center transition-transform duration-200 group-hover:scale-[1.02]"
         />
         <span className="sr-only">Toca para ver la cartilla en detalle</span>
       </button>

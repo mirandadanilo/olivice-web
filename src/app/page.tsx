@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import CartillaViewer from "./components/CartillaViewer";
+import CartillaInformativaViewer from "./components/CartillaInformativaViewer";
 
 const departamentos = [
   "Amazonas",
@@ -351,13 +352,36 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="mt-10 rounded-2xl border border-dashed border-[#725842]/30 bg-[#EDE7E0] px-6 py-10 text-center">
-                <p className="text-xs uppercase tracking-[0.3em] text-[#725842]">
-                  Próximamente
-                </p>
-                <p className="mt-3 text-sm text-[#0C1C29]/55">
-                  Aquí mostraremos las fotografías reales de las botellas.
-                </p>
+              <div className="mt-8 space-y-3">
+                <div className="relative h-48 overflow-hidden rounded-2xl bg-[#EDE7E0] p-3">
+                  <Image
+                    src="/images/Botellas%20t%C3%A9rmicas%20Olivice%20Per%C3%BA.png"
+                    alt="Dos botellas termicas OLIVICE"
+                    fill
+                    sizes="(min-width: 1024px) 30vw, 90vw"
+                    className="object-contain"
+                  />
+                </div>
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="relative h-36 overflow-hidden rounded-2xl bg-[#EDE7E0] p-2">
+                    <Image
+                      src="/images/Botella%20blanca%20Per%C3%BA%20en%20tus%20manos.png"
+                      alt="Botella blanca OLIVICE grabada"
+                      fill
+                      sizes="(min-width: 1024px) 15vw, 45vw"
+                      className="object-contain"
+                    />
+                  </div>
+                  <div className="relative h-36 overflow-hidden rounded-2xl bg-[#EDE7E0] p-2">
+                    <Image
+                      src="/images/Botella%20negra%20grabada%20Per%C3%BA%20en%20tus%20manos.png"
+                      alt="Botella negra OLIVICE grabada"
+                      fill
+                      sizes="(min-width: 1024px) 15vw, 45vw"
+                      className="object-contain"
+                    />
+                  </div>
+                </div>
               </div>
 
               <Link
@@ -383,13 +407,13 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="relative mx-6 mb-6 mt-5 flex items-start justify-center overflow-visible rounded-[1.5rem] bg-[#EDE7E0] px-4 pb-8 pt-5">
+              <div className="relative mx-6 mb-6 mt-5 flex items-start justify-center overflow-visible rounded-[1.5rem] bg-[#EDE7E0] px-3 pb-6 pt-5">
                 <CartillaViewer />
               </div>
             </article>
 
             {/* CARTILLA INFORMATIVA */}
-            <article className="flex min-h-[430px] flex-col justify-between rounded-[2rem] bg-[#0C1C29] p-8 text-[#EDE7E0] shadow-sm">
+            <article className="flex min-h-[640px] flex-col rounded-[2rem] bg-[#0C1C29] p-8 text-[#EDE7E0] shadow-sm">
               <div>
                 <span className="text-xs uppercase tracking-[0.35em] text-[#EDE7E0]/50">
                   03 · Para descubrir
@@ -403,15 +427,28 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="mt-10 flex min-h-44 items-center justify-center rounded-2xl border border-dashed border-[#EDE7E0]/20 bg-white/5 px-6 text-center">
-                <div>
-                  <p className="text-xs uppercase tracking-[0.3em] text-[#725842]">
-                    Próximamente
-                  </p>
-                  <p className="mt-3 text-sm text-[#EDE7E0]/45">
-                    Incorporaremos aquí la cartilla informativa cuando esté
-                    lista.
-                  </p>
+              <div className="mt-10 grid grid-cols-1 gap-4">
+                <div className="flex items-center justify-center overflow-hidden rounded-2xl bg-white p-2 sm:p-3">
+                  <CartillaInformativaViewer
+                    src="/images/triptico-1.png"
+                    alt="Cartilla informativa OLIVICE, primera pagina"
+                    label="Cartilla informativa, pagina 1"
+                    width={3572}
+                    height={2526}
+                    fullWidth
+                    previewClassName="block h-auto w-full max-w-full object-contain transition-transform duration-200 group-hover:scale-[1.02]"
+                  />
+                </div>
+                <div className="flex items-center justify-center overflow-hidden rounded-2xl bg-white p-2 sm:p-3">
+                  <CartillaInformativaViewer
+                    src="/images/triptico-2.png"
+                    alt="Cartilla informativa OLIVICE, segunda pagina"
+                    label="Cartilla informativa, pagina 2"
+                    width={3573}
+                    height={2526}
+                    fullWidth
+                    previewClassName="block h-auto w-full max-w-full object-contain transition-transform duration-200 group-hover:scale-[1.02]"
+                  />
                 </div>
               </div>
             </article>

@@ -42,9 +42,9 @@
     "semantic_hash": "70f839ece80281c576701dc08f055685"
   },
   "src/app/page.tsx": {
-    "mtime": 1793854700.459592,
-    "seen": 1793854730.4258063,
-    "ast_hash": "a347724c3af91257d546169a60074dce",
+    "mtime": 1793942293.89134,
+    "seen": 1793942310.263409,
+    "ast_hash": "b2fde0667af971590996844123813b68",
     "semantic_hash": ""
   },
   "tsconfig.json": {
@@ -300,9 +300,51 @@
     "semantic_hash": ""
   },
   "src/app/components/CartillaViewer.tsx": {
-    "mtime": 1793855030.5756361,
-    "seen": 1793855046.9978812,
-    "ast_hash": "904b14f9d0799ed72df0ebf5e88be577",
+    "mtime": 1793939387.1064293,
+    "seen": 1793939413.6940162,
+    "ast_hash": "fa84997b2d4b6c0e631ee67cbcad510e",
+    "semantic_hash": ""
+  },
+  "public/images/triptico-1.png": {
+    "mtime": 1793937483.4729848,
+    "seen": 1793938124.3070788,
+    "ast_hash": "a793e6898a8ad5e35856d6e97a13616a",
+    "semantic_hash": ""
+  },
+  "public/images/triptico-2.png": {
+    "mtime": 1793937503.0743065,
+    "seen": 1793938124.3070788,
+    "ast_hash": "a4029b3e0f77470be7e6d1ad37fe98c8",
+    "semantic_hash": ""
+  },
+  "src/app/components/CartillaInformativaViewer.tsx": {
+    "mtime": 1793938613.2670043,
+    "seen": 1793939413.6940162,
+    "ast_hash": "cdd877192451fce923f0f0d8e8ecd3cc",
+    "semantic_hash": ""
+  },
+  "public/images/Botella blanca Per\u00fa en tus manos.png": {
+    "mtime": 1793941873.5947764,
+    "seen": 1793942310.263409,
+    "ast_hash": "290f4b4854418cf6f404737b12a4154c",
+    "semantic_hash": ""
+  },
+  "public/images/Botella negra grabada Per\u00fa en tus manos.png": {
+    "mtime": 1793941986.9272075,
+    "seen": 1793942310.263409,
+    "ast_hash": "b9476f41f996f06d64532cdfde5e6121",
+    "semantic_hash": ""
+  },
+  "public/images/Botellas Olivice del Per\u00fa en vistas m\u00faltiples.png": {
+    "mtime": 1793942300.8542125,
+    "seen": 1793942310.263409,
+    "ast_hash": "60f1c2b255d07e2e38794136963d13a2",
+    "semantic_hash": ""
+  },
+  "public/images/Botellas t\u00e9rmicas Olivice Per\u00fa.png": {
+    "mtime": 1793941888.3672009,
+    "seen": 1793942310.263409,
+    "ast_hash": "04a9b0a342a342644fabff31c43b9512",
     "semantic_hash": ""
   },
   "package-lock.json": {
