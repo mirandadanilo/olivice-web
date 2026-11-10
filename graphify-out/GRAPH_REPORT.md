@@ -1,17 +1,17 @@
-# Graph Report - olivice-web  (2026-11-06)
+# Graph Report - olivice-web  (2026-11-09)
 
 ## Corpus Check
-- 17 files · ~4,323 words
+- 19 files · ~7,602 words
 - Verdict: corpus is large enough that graph structure adds value.
-- Unclassified: 3 file(s) not represented in the graph (top: (none) 1, .ico 1, .css 1)
+- Unclassified: 2 file(s) not represented in the graph (top: (none) 1, .css 1)
 
 ## Summary
-- 138 nodes · 146 edges · 14 communities (9 shown, 5 thin omitted)
+- 147 nodes · 158 edges · 15 communities (10 shown, 5 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e0407d4b`
+- Built from commit: `4ca41a9c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -28,14 +28,15 @@
 - OLIVICE
 - This is NOT the Next.js you know
 - README.md
+- [slug]/page.tsx
 
 ## God Nodes (most connected - your core abstractions)
 1. `Colección Perú - OLIVICE` - 25 edges
 2. `compilerOptions` - 16 edges
-3. `next` - 7 edges
+3. `next` - 8 edges
 4. `Página de Inicio` - 7 edges
-5. `scripts` - 5 edges
-6. `react` - 4 edges
+5. `react` - 5 edges
+6. `scripts` - 5 edges
 7. `Identidad de Marca` - 4 edges
 8. `Home()` - 3 edges
 9. `eslint` - 3 edges
@@ -50,7 +51,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (14 total, 5 thin omitted)
+## Communities (15 total, 5 thin omitted)
 
 ### Community 0 - "package.json"
 Cohesion: 0.12
@@ -88,16 +89,22 @@ Nodes (7): Botellas Grabadas, Colección Perú, Contacto, Descubre el Perú, Her
 Cohesion: 0.50
 Nodes (3): Colección Perú, Objetivos, OLIVICE
 
+### Community 14 - "[slug]/page.tsx"
+Cohesion: 0.28
+Nodes (5): Department, departments, DepartmentPage(), DepartmentPageProps, DetailBlock()
+
 ## Knowledge Gaps
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `next` connect `page.tsx` to `package.json`, `layout.tsx`?**
-  _High betweenness centrality (0.067) - this node is a cross-community bridge._
+- **Why does `next` connect `page.tsx` to `package.json`, `layout.tsx`, `[slug]/page.tsx`?**
+  _High betweenness centrality (0.086) - this node is a cross-community bridge._
 - **Should `package.json` be split into smaller, more focused modules?**
   _Cohesion score 0.1225296442687747 - nodes in this community are weakly interconnected._
+- **Why does `react` connect `page.tsx` to `package.json`, `[slug]/page.tsx`?**
+  _High betweenness centrality (0.026) - this node is a cross-community bridge._
 - **Should `compilerOptions` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
 - **Should `page.tsx` be split into smaller, more focused modules?**

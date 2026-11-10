@@ -12,10 +12,10 @@
     "semantic_hash": "dfa1f5f6a7037bf39dc510f30b180002"
   },
   "next-env.d.ts": {
-    "mtime": 1793852301.6419735,
-    "seen": 1793853422.1789975,
+    "mtime": 1794283810.9425285,
+    "seen": 1794284782.1631596,
     "ast_hash": "aa94238a90e7d04b7a47ecc3145ba6a0",
-    "semantic_hash": "aa94238a90e7d04b7a47ecc3145ba6a0"
+    "semantic_hash": ""
   },
   "next.config.ts": {
     "mtime": 1788922392.284506,
@@ -36,15 +36,15 @@
     "semantic_hash": "239f3ebf717465dc636818a1a619398d"
   },
   "src/app/layout.tsx": {
-    "mtime": 1788922392.3647797,
-    "seen": 1793850692.0526288,
-    "ast_hash": "70f839ece80281c576701dc08f055685",
-    "semantic_hash": "70f839ece80281c576701dc08f055685"
+    "mtime": 1794283597.4137287,
+    "seen": 1794283647.9720495,
+    "ast_hash": "d93c834e4eca6a85a9eb8fcaf40e1507",
+    "semantic_hash": ""
   },
   "src/app/page.tsx": {
-    "mtime": 1793942293.89134,
-    "seen": 1793942310.263409,
-    "ast_hash": "b2fde0667af971590996844123813b68",
+    "mtime": 1794283658.8704426,
+    "seen": 1794283668.263951,
+    "ast_hash": "c36476c1d47b149ae08f11bc0ae8fb1e",
     "semantic_hash": ""
   },
   "tsconfig.json": {
@@ -345,6 +345,30 @@
     "mtime": 1793941888.3672009,
     "seen": 1793942310.263409,
     "ast_hash": "04a9b0a342a342644fabff31c43b9512",
+    "semantic_hash": ""
+  },
+  "src/app/icon.png": {
+    "mtime": 1789095733.5842087,
+    "seen": 1794283647.9730706,
+    "ast_hash": "53154dfc7f9056baeab8e63c410429b2",
+    "semantic_hash": ""
+  },
+  "src/app/peru/[slug]/page.tsx": {
+    "mtime": 1794284741.1899972,
+    "seen": 1794284782.1631596,
+    "ast_hash": "b30b8958802da4f11868e673b9b68866",
+    "semantic_hash": ""
+  },
+  "src/app/peru/departments.ts": {
+    "mtime": 1794284741.6442616,
+    "seen": 1794284782.1631596,
+    "ast_hash": "a90ec370cff2709c55517a7715c6d2aa",
+    "semantic_hash": ""
+  },
+  "tmp/informaci\u00f3n departamentos/Lima - 16214494_1920_1080_30fps.mp4": {
+    "mtime": 1794284408.95171,
+    "seen": 1794284782.1641533,
+    "ast_hash": "de359ed566a6095deb6fd81080e10e4a",
     "semantic_hash": ""
   },
   "package-lock.json": {

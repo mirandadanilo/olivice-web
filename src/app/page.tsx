@@ -488,7 +488,7 @@ export default function Home() {
                 href={`/peru/${stickers[index]}`}
                 className="group aspect-square overflow-hidden rounded-2xl bg-[#EDE7E0] p-2 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
               >
-                <div className="flex h-full flex-col justify-between">
+                <div className="flex h-full flex-col">
                   <span className="text-[10px] leading-none tracking-widest text-[#725842]">
                     {String(index + 1).padStart(2, "0")}
                   </span>
@@ -502,11 +502,6 @@ export default function Home() {
                       sizes="(min-width: 1024px) 12vw, (min-width: 768px) 20vw, 40vw"
                       className="h-auto w-[92%] max-h-full scale-[1.03] object-contain"
                     />
-                  </div>
-
-                  <div>
-                    <div className="mb-1 h-px w-8 bg-[#725842]/40 transition-all group-hover:w-14" />
-                    <h3 className="text-sm font-bold">{departamento}</h3>
                   </div>
                 </div>
               </Link>
