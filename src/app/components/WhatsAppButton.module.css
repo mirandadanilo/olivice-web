@@ -1,0 +1,51 @@
+.button {
+  position: fixed;
+  z-index: 50;
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  display: grid;
+  width: 50px;
+  height: 50px;
+  place-items: center;
+  border-radius: 9999px;
+  background: #25d366;
+  color: #fff;
+  box-shadow: 0 3px 12px rgb(0 0 0 / 18%);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.button:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 5px 16px rgb(0 0 0 / 22%);
+}
+
+.button:focus-visible {
+  outline: 3px solid #0c1c29;
+  outline-offset: 3px;
+}
+
+.icon {
+  width: 29px;
+  height: 29px;
+}
+
+@media (min-width: 640px) {
+  .button {
+    right: max(1.5rem, env(safe-area-inset-right));
+    bottom: max(1.5rem, env(safe-area-inset-bottom));
+    width: 56px;
+    height: 56px;
+  }
+
+  .icon {
+    width: 33px;
+    height: 33px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button {
+    transition: none;
+  }
+}

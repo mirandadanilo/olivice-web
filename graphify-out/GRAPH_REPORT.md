@@ -1,17 +1,17 @@
-# Graph Report - olivice-web  (2026-11-09)
+# Graph Report - olivice-web  (2026-11-22)
 
 ## Corpus Check
-- 19 files · ~7,602 words
+- 20 files · ~9,764 words
 - Verdict: corpus is large enough that graph structure adds value.
-- Unclassified: 2 file(s) not represented in the graph (top: (none) 1, .css 1)
+- Unclassified: 3 file(s) not represented in the graph (top: .css 2, (none) 1)
 
 ## Summary
-- 147 nodes · 158 edges · 15 communities (10 shown, 5 thin omitted)
+- 150 nodes · 163 edges · 15 communities (10 shown, 5 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4ca41a9c`
+- Built from commit: `361cd052`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -38,11 +38,13 @@
 5. `react` - 5 edges
 6. `scripts` - 5 edges
 7. `Identidad de Marca` - 4 edges
-8. `Home()` - 3 edges
-9. `eslint` - 3 edges
-10. `eslint-config-next` - 3 edges
+8. `WhatsAppButton()` - 3 edges
+9. `Home()` - 3 edges
+10. `eslint` - 3 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `RootLayout()` --calls--> `WhatsAppButton()`  [EXTRACTED]
+  src/app/layout.tsx → src/app/components/WhatsAppButton.tsx
 - `Home()` --calls--> `CartillaInformativaViewer()`  [EXTRACTED]
   src/app/page.tsx → src/app/components/CartillaInformativaViewer.tsx
 - `Home()` --calls--> `CartillaViewer()`  [EXTRACTED]
@@ -70,8 +72,8 @@ Cohesion: 0.08
 Nodes (25): Amazonas, Apurímac, Arequipa, Ayacucho, Cajamarca, Colección Perú - OLIVICE, Cusco, Huancavelica (+17 more)
 
 ### Community 4 - "layout.tsx"
-Cohesion: 0.33
-Nodes (3): geistMono, geistSans, metadata
+Cohesion: 0.28
+Nodes (5): WhatsAppButton(), geistMono, geistSans, metadata, RootLayout()
 
 ### Community 5 - "plan-web-olivice.md"
 Cohesion: 0.12
@@ -100,7 +102,7 @@ Nodes (5): Department, departments, DepartmentPage(), DepartmentPageProps, Detai
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `next` connect `page.tsx` to `package.json`, `layout.tsx`, `[slug]/page.tsx`?**
-  _High betweenness centrality (0.086) - this node is a cross-community bridge._
+  _High betweenness centrality (0.098) - this node is a cross-community bridge._
 - **Should `package.json` be split into smaller, more focused modules?**
   _Cohesion score 0.1225296442687747 - nodes in this community are weakly interconnected._
 - **Why does `react` connect `page.tsx` to `package.json`, `[slug]/page.tsx`?**
