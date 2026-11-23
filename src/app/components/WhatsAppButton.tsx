@@ -1,18 +1,26 @@
-import styles from "./WhatsAppButton.module.css";
+"use client";
+
+import { trackGAEvent } from "../lib/analytics";
 
 export default function WhatsAppButton() {
   return (
     <a
-      className={styles.button}
+      className="fixed right-[max(1rem,env(safe-area-inset-right))] bottom-[max(1rem,env(safe-area-inset-bottom))] z-50 grid size-[50px] place-items-center rounded-full bg-[#25D366] text-white shadow-[0_3px_12px_rgb(0_0_0_/_18%)] transition-[transform,box-shadow] duration-[160ms] ease-[ease] hover:-translate-y-0.5 hover:scale-[1.03] hover:shadow-[0_5px_16px_rgb(0_0_0_/_22%)] focus-visible:outline-3 focus-visible:outline-[#0C1C29] focus-visible:outline-offset-[3px] sm:right-[max(1.5rem,env(safe-area-inset-right))] sm:bottom-[max(1.5rem,env(safe-area-inset-bottom))] sm:size-[56px] motion-reduce:transition-none"
       href="https://wa.me/51993728808"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Contactar a OLIVICE por WhatsApp Business"
+      onClick={() =>
+        trackGAEvent("whatsapp_click", {
+          link_url: "https://wa.me/51993728808",
+          link_domain: "wa.me",
+        })
+      }
     >
       <svg
         aria-hidden="true"
         viewBox="0 0 32 32"
-        className={styles.icon}
+        className="size-[29px] sm:size-[33px]"
         fill="currentColor"
       >
         <path d="M16 2.4A13.5 13.5 0 0 0 4.4 22.8L2.6 29.4l6.8-1.8A13.5 13.5 0 1 0 16 2.4Zm0 24.4c-2 0-4-.5-5.7-1.6l-.4-.2-4 .1 1.1-3.8-.3-.5A10.8 10.8 0 1 1 16 26.8Z" />

@@ -65,8 +65,18 @@ export default async function DepartmentPage({ params }: DepartmentPageProps) {
     <main className="min-h-screen bg-[#EDE7E0] text-[#0C1C29]">
       <header className="border-b border-[#0C1C29]/10 bg-[#EDE7E0]/95">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-4 lg:px-10">
-          <Link href="/" className="text-xl font-semibold tracking-[0.2em]" aria-label="OLIVICE, ir al inicio">
-            OLIVICE
+          <Link
+            href="/"
+            className="relative block h-20 w-56 shrink-0 focus:outline-none sm:h-22 sm:w-60 lg:h-24 lg:w-64"
+            aria-label="OLIVICE, ir al inicio"
+          >
+            <Image
+              src="/images/logo-azul-header.png"
+              alt="OLIVICE - Siempre contigo"
+              fill
+              sizes="(min-width: 1024px) 256px, (min-width: 640px) 240px, 224px"
+              className="object-contain object-left"
+            />
           </Link>
           <nav aria-label="Navegación principal" className="flex items-center gap-4 text-sm sm:gap-7">
             <Link href="/" className="transition-colors hover:text-[#725842]">

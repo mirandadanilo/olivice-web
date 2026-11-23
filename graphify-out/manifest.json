@@ -12,8 +12,8 @@
     "semantic_hash": "dfa1f5f6a7037bf39dc510f30b180002"
   },
   "next-env.d.ts": {
-    "mtime": 1794286225.506513,
-    "seen": 1795401905.0572994,
+    "mtime": 1795404210.6496527,
+    "seen": 1795404237.285154,
     "ast_hash": "8195d2c60ce847a459ae9d308d6a5724",
     "semantic_hash": ""
   },
@@ -36,9 +36,9 @@
     "semantic_hash": "239f3ebf717465dc636818a1a619398d"
   },
   "src/app/layout.tsx": {
-    "mtime": 1795402491.6001115,
-    "seen": 1795402504.0254128,
-    "ast_hash": "26ad3ab683ef4e9ceaa7662fa13b70c6",
+    "mtime": 1795404069.8765469,
+    "seen": 1795404237.285154,
+    "ast_hash": "454e8b4091b4cf91a6ed1b45babde9ff",
     "semantic_hash": ""
   },
   "src/app/page.tsx": {
@@ -72,9 +72,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1788921759.5399523,
-    "seen": 1793853422.1789975,
-    "ast_hash": "b1c0d72391dd12e0419bd1448fce3182",
+    "mtime": 1795404278.4999828,
+    "seen": 1795404335.8464396,
+    "ast_hash": "dfa258eef76d044badeb25c677dd1698",
     "semantic_hash": ""
   },
   "coleccion-peru.md": {
@@ -354,9 +354,9 @@
     "semantic_hash": ""
   },
   "src/app/peru/[slug]/page.tsx": {
-    "mtime": 1794284741.1899972,
-    "seen": 1794284782.1631596,
-    "ast_hash": "b30b8958802da4f11868e673b9b68866",
+    "mtime": 1795403666.9262881,
+    "seen": 1795403679.0369196,
+    "ast_hash": "3fd9ce900bb2254805c91db9998cd5d6",
     "semantic_hash": ""
   },
   "src/app/peru/departments.ts": {
@@ -366,9 +366,21 @@
     "semantic_hash": ""
   },
   "src/app/components/WhatsAppButton.tsx": {
-    "mtime": 1795402491.169415,
-    "seen": 1795402504.0254128,
-    "ast_hash": "9bed06ad2d1f36694d3f28dd64a6f0c0",
+    "mtime": 1795404278.6974244,
+    "seen": 1795404335.8464396,
+    "ast_hash": "a6bae8155ae9292f229b4a3342f325ff",
+    "semantic_hash": ""
+  },
+  "src/app/components/GoogleAnalytics.tsx": {
+    "mtime": 1795404093.1221516,
+    "seen": 1795404237.285154,
+    "ast_hash": "837f168d9e34727a0d477aec9fde60d4",
+    "semantic_hash": ""
+  },
+  "src/app/lib/analytics.ts": {
+    "mtime": 1795404092.888789,
+    "seen": 1795404237.285154,
+    "ast_hash": "4a912727ed00e539a2eb2e49aede6036",
     "semantic_hash": ""
   },
   "package-lock.json": {
