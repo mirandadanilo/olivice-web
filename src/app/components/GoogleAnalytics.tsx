@@ -10,24 +10,6 @@ export default function GoogleAnalytics() {
   const lastTrackedPath = useRef<string | null>(null);
 
   useEffect(() => {
-    if (!GA_MEASUREMENT_ID || window.__oliviceGaInitialized) return;
-
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function (...command) {
-      window.dataLayer.push(arguments);
-    };
-    window.gtag("js", new Date());
-    window.gtag("config", GA_MEASUREMENT_ID, { send_page_view: false });
-    window.__oliviceGaInitialized = true;
-
-    const script = document.createElement("script");
-    script.id = "olivice-google-analytics";
-    script.async = true;
-    script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(GA_MEASUREMENT_ID)}`;
-    document.head.appendChild(script);
-  }, []);
-
-  useEffect(() => {
     if (
       !GA_MEASUREMENT_ID ||
       !pathname ||

@@ -36,9 +36,9 @@
     "semantic_hash": "239f3ebf717465dc636818a1a619398d"
   },
   "src/app/layout.tsx": {
-    "mtime": 1795404069.8765469,
-    "seen": 1795404237.285154,
-    "ast_hash": "454e8b4091b4cf91a6ed1b45babde9ff",
+    "mtime": 1795406142.9098282,
+    "seen": 1795406279.3836844,
+    "ast_hash": "392557cc85cef0f8d6e271cdf0f31c10",
     "semantic_hash": ""
   },
   "src/app/page.tsx": {
@@ -72,9 +72,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1795404278.4999828,
-    "seen": 1795404335.8464396,
-    "ast_hash": "dfa258eef76d044badeb25c677dd1698",
+    "mtime": 1795406164.5493968,
+    "seen": 1795406279.3836844,
+    "ast_hash": "52198e92f73b2c1bab8e26d990149b3b",
     "semantic_hash": ""
   },
   "coleccion-peru.md": {
@@ -372,15 +372,15 @@
     "semantic_hash": ""
   },
   "src/app/components/GoogleAnalytics.tsx": {
-    "mtime": 1795404093.1221516,
-    "seen": 1795404237.285154,
-    "ast_hash": "837f168d9e34727a0d477aec9fde60d4",
+    "mtime": 1795406142.46837,
+    "seen": 1795406279.3836844,
+    "ast_hash": "7ffb05d5db1a0a654fa8d6975ab231f3",
     "semantic_hash": ""
   },
   "src/app/lib/analytics.ts": {
-    "mtime": 1795404092.888789,
-    "seen": 1795404237.285154,
-    "ast_hash": "4a912727ed00e539a2eb2e49aede6036",
+    "mtime": 1795406142.0139134,
+    "seen": 1795406279.3836844,
+    "ast_hash": "9263d8b708d63b28eab256efa3afcf7c",
     "semantic_hash": ""
   },
   "package-lock.json": {

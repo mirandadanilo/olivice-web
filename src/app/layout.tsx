@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 import WhatsAppButton from "./components/WhatsAppButton";
+import { GA_MEASUREMENT_ID } from "./lib/analytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -46,6 +48,17 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <Script id="ga4-init" strategy="beforeInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+window.gtag = function(){window.dataLayer.push(arguments);};
+window.gtag('js', new Date());
+window.gtag('config', '${GA_MEASUREMENT_ID}', { send_page_view: false });`}
+        </Script>
+        <Script
+          id="ga4-script"
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
         {children}
         <WhatsAppButton />
         <GoogleAnalytics />

@@ -1,4 +1,4 @@
-export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+export const GA_MEASUREMENT_ID = "G-YS2FGXB7LD";
 
 type GtagCommand = [command: string, ...parameters: unknown[]];
 
@@ -6,7 +6,6 @@ declare global {
   interface Window {
     dataLayer: IArguments[];
     gtag: (...command: GtagCommand) => void;
-    __oliviceGaInitialized?: boolean;
   }
 }
 

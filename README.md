@@ -3,10 +3,9 @@ Página web oficial de OLIVICE: pegatinas de viaje coleccionables de Perú y bot
 
 ## Google Analytics 4
 
-Configura `NEXT_PUBLIC_GA_MEASUREMENT_ID` en `.env.local` para desarrollo y en
-las variables de entorno del servicio de despliegue antes de compilar. Puedes
-copiar `.env.example` como punto de partida. Esta variable es pública y queda
-incluida en el JavaScript del navegador.
+GA4 usa el identificador público `G-YS2FGXB7LD`, definido en
+`src/app/lib/analytics.ts`. No requiere variables de entorno locales ni de
+Vercel.
 
 El sitio registra manualmente los pageviews iniciales y los cambios de ruta.
 Para evitar duplicados, desactiva en el flujo web de GA4 la opción de medición

@@ -1,17 +1,17 @@
 # Graph Report - olivice-web  (2026-11-22)
 
 ## Corpus Check
-- 22 files · ~10,115 words
+- 22 files · ~10,081 words
 - Verdict: corpus is large enough that graph structure adds value.
-- Unclassified: 3 file(s) not represented in the graph (top: .example 1, (none) 1, .css 1)
+- Unclassified: 2 file(s) not represented in the graph (top: (none) 1, .css 1)
 
 ## Summary
-- 157 nodes · 178 edges · 15 communities (10 shown, 5 thin omitted)
+- 157 nodes · 179 edges · 15 communities (10 shown, 5 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `be478ea6`
+- Built from commit: `d1b8d08c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -37,22 +37,22 @@
 4. `Página de Inicio` - 7 edges
 5. `react` - 6 edges
 6. `scripts` - 5 edges
-7. `WhatsAppButton()` - 4 edges
-8. `Identidad de Marca` - 4 edges
-9. `Home()` - 3 edges
-10. `GoogleAnalytics()` - 3 edges
+7. `Identidad de Marca` - 4 edges
+8. `GoogleAnalytics()` - 3 edges
+9. `RootLayout()` - 3 edges
+10. `GA_MEASUREMENT_ID` - 3 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `WhatsAppButton()` --calls--> `trackGAEvent()`  [EXTRACTED]
-  src/app/components/WhatsAppButton.tsx → src/app/lib/analytics.ts
+- `RootLayout()` --calls--> `GoogleAnalytics()`  [EXTRACTED]
+  src/app/layout.tsx → src/app/components/GoogleAnalytics.tsx
 - `RootLayout()` --calls--> `WhatsAppButton()`  [EXTRACTED]
   src/app/layout.tsx → src/app/components/WhatsAppButton.tsx
+- `WhatsAppButton()` --calls--> `trackGAEvent()`  [EXTRACTED]
+  src/app/components/WhatsAppButton.tsx → src/app/lib/analytics.ts
 - `Home()` --calls--> `CartillaInformativaViewer()`  [EXTRACTED]
   src/app/page.tsx → src/app/components/CartillaInformativaViewer.tsx
 - `Home()` --calls--> `CartillaViewer()`  [EXTRACTED]
   src/app/page.tsx → src/app/components/CartillaViewer.tsx
-- `RootLayout()` --calls--> `GoogleAnalytics()`  [EXTRACTED]
-  src/app/layout.tsx → src/app/components/GoogleAnalytics.tsx
 
 ## Import Cycles
 - None detected.
@@ -76,7 +76,7 @@ Cohesion: 0.08
 Nodes (25): Amazonas, Apurímac, Arequipa, Ayacucho, Cajamarca, Colección Perú - OLIVICE, Cusco, Huancavelica (+17 more)
 
 ### Community 4 - "layout.tsx"
-Cohesion: 0.21
+Cohesion: 0.22
 Nodes (10): GoogleAnalytics(), WhatsAppButton(), geistMono, geistSans, metadata, RootLayout(), GA_MEASUREMENT_ID, GtagCommand (+2 more)
 
 ### Community 5 - "plan-web-olivice.md"
@@ -106,11 +106,11 @@ Nodes (5): Department, departments, DepartmentPage(), DepartmentPageProps, Detai
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `next` connect `page.tsx` to `package.json`, `layout.tsx`, `[slug]/page.tsx`?**
-  _High betweenness centrality (0.102) - this node is a cross-community bridge._
+  _High betweenness centrality (0.105) - this node is a cross-community bridge._
 - **Should `package.json` be split into smaller, more focused modules?**
   _Cohesion score 0.1225296442687747 - nodes in this community are weakly interconnected._
 - **Why does `react` connect `page.tsx` to `package.json`, `layout.tsx`, `[slug]/page.tsx`?**
-  _High betweenness centrality (0.036) - this node is a cross-community bridge._
+  _High betweenness centrality (0.033) - this node is a cross-community bridge._
 - **Should `compilerOptions` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
 - **Should `page.tsx` be split into smaller, more focused modules?**
